@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #0f172a; /* dark professional */
+  color: white;
+}
+
+.nav h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav div {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #38bdf8; /* hover effect */
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  text-align: center;
+  
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.home h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 20px;
+  color: #94a3b8;
+}
+
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.about h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 600px;
+  font-size: 18px;
+  color: #cbd5f5;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #94a3b8;
+}
+
+.contact button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: #0ea5e9;
+  color: white;
+}

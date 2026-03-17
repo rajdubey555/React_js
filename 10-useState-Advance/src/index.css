@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+   font-family:sans-serif;
+}
+
+html,body{
+  height:100%;
+  width:100%;
+ 
+}
+
+.head{
+   height: 30vh;
+  margin: 20px;
+    background-color: blueviolet;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+}
+
+
+.btn{
+  justify-self: center;
+}
+
+button{
+  padding: 10px;
+  margin: 20px;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius:20px;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+}
