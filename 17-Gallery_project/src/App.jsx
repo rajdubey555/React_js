@@ -8,7 +8,7 @@ const App = () => {
   const [index, setIndex] = useState(2)
 
   const getData = async () => {
-    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=15`)
+    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=16`)
     setUserData(response.data)
   }
 
